@@ -1,8 +1,12 @@
 {
   "name": "foam",
   "version": "0.2.0",
+  "publisher":"fish",
   "description": "Foam",
-  "repository": "git@github.com:foambubble/foam.git",
+  "repository": {
+		"type": "git",
+		"url": "https://github.com/MichaelJFishman/foam"
+	},
   "license": "MIT",
   "private": "true",
   "workspaces": [
@@ -28,7 +32,8 @@
     "lerna": "^3.22.1"
   },
   "engines": {
-    "node": ">=12"
+    "node": ">=12",
+    "vscode": "^1.53.0"
   },
   "husky": {
     "hooks": {
